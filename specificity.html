@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preference</title>
+    <link rel="stylesheet" href="./specificity.css">
+    <style>
+      /* ID selector <-- Class selector <- Element Selector */
+      /* inlineStyle <-- internal Style <-- external style */
+
+
+      /* element Selector */
+      h1 {
+        background-color: orange;
+      }
+      /* class Selector */
+      .myCls {
+        background-color: blue;
+      }
+      /* ID selector */
+      #myId {
+        background-color: green;
+      }
+
+      body{
+          background-color: aqua;
+      }
+    </style>
+  </head>
+  <body style="background-color:blueviolet">
+    <h1 id="myId" class="myCls">JFS16 Class Heading</h1>
+  </body>
+</html>
